@@ -14,7 +14,7 @@ body {
 nav {
   width: 100%;
   padding: 20px 0;
-  border: 1px solid #eaebf0;
+  border-bottom: 1px solid #2e3545;
   .navbar_container {
     display: flex;
     justify-content: space-between;
@@ -153,7 +153,6 @@ nav {
   padding: 64px 0;
   .card_container {
     width: 1280px;
-    height: 466px;
     display: flex;
     justify-content: center;
     gap: 32px;
@@ -279,6 +278,14 @@ nav {
       }
     }
   }
+  .cards .card_container {
+    width: 800px;
+    flex-wrap: wrap;
+    justify-content: center;
+    %card_general {
+      width: 336px;
+    }
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -313,7 +320,21 @@ nav {
   .cards {
     padding: 32px 0;
     .card_container {
+      width: 375px;
       flex-wrap: wrap;
+      justify-content: center;
+      %card_general {
+        width: 343px;
+        padding: 24px;
+        button {
+          width: 295px;
+        }
+        .line {
+          width: 248px;
+          margin-top: 16px;
+          margin-bottom: 16px;
+        }
+      }
     }
   }
 }
