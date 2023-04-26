@@ -365,6 +365,12 @@ nav .navbar_container .right img {
     letter-spacing: -0.1px;
     color: #a5acba;
   }
+  .buttons {
+    width: 100%;
+  }
+  .buttons .button_inside {
+    width: 343px;
+  }
   .cards {
     padding: 32px 0;
   }

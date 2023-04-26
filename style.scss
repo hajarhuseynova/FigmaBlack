@@ -331,6 +331,12 @@ nav {
       }
     }
   }
+  .buttons {
+    width: 100%;
+    .button_inside {
+      width: 343px;
+    }
+  }
   .cards {
     padding: 32px 0;
     .card_container {
