@@ -170,8 +170,7 @@ nav .navbar_container .right img {
   margin-left: 4px;
 }
 .buttons .button_inside button:first-child:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  background-color: #437ef7;
 }
 .buttons .button_inside button:last-child {
   background-color: transparent;
@@ -292,6 +291,7 @@ nav .navbar_container .right img {
     padding: 0;
   }
   nav .navbar_container {
+    width: 100%;
     padding: 0;
   }
   nav .navbar_container .left a {
@@ -338,6 +338,13 @@ nav .navbar_container .right img {
 @media screen and (max-width: 768px) {
   .container {
     width: 375px;
+  }
+  nav {
+    padding: 0;
+  }
+  nav .navbar_container {
+    width: 375px;
+    padding: 0;
   }
   .text_section {
     padding-top: 32px;

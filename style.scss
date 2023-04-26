@@ -135,7 +135,7 @@ nav {
         margin-left: 4px;
 
         &:hover {
-          transform: scale(1.1);
+          background-color: #437ef7;
         }
       }
 
@@ -258,6 +258,7 @@ nav {
   nav {
     padding: 0;
     .navbar_container {
+      width: 100%;
       padding: 0;
       .left {
         a {
@@ -308,6 +309,13 @@ nav {
 @media screen and (max-width: 768px) {
   .container {
     width: 375px;
+  }
+  nav {
+    padding: 0;
+    .navbar_container {
+      width: 375px;
+      padding: 0;
+    }
   }
   .text_section {
     padding-top: 32px;
